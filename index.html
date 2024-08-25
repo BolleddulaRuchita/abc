@@ -7,7 +7,52 @@
 </head>
 <body>
     <script>
-        
+        //code 1
+var a="gyhueojitjokeeks"
+c=0
+console.log(a);
+for(i of a){
+if(i=="a" || i=='e' || i=='i' || i=='o' || i=='u')
+c++
+}
+console.log(c);
+
+//code 2
+var a="jh_k_Njkm_jk_n_mo_h"
+console.log(a);
+let r=""
+for(i in a){
+if(a[i]==a[i].toLowerCase() && a[i-1]=="_" ){
+    r=r+a[i].toUpperCase()
+    }
+    else if(a[i]=="_"){
+      continue
+    }
+    else{
+      r=r+a[i]
+    }
+  }
+  console.log(r);
+  
+//code 3
+var a=" hi ji hi ki"
+r=""
+console.log(a);
+for(i of a){
+  if(i==" "){
+    continue
+  }
+r=r+i
+}
+console.log(r);
+
+//code 4
+var a="dairymilk"     //slice operation using for loop
+n=2,m=4                // here n= start of index  ,m=last of index value till where we want the extraction
+for(i=n;i<m;i++){
+  console.log(a[i]);
+}
+
     </script>
 </body>
 </html>
